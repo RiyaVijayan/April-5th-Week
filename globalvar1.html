@@ -1,0 +1,21 @@
+//global variable declaring inside a function
+<!DOCTYPE html>
+<html>
+    <head>
+        <h1>JS Global variable inside a function</h1>
+        <script>
+            function one()
+            {
+                window.value="Riya";
+                //declaring global variable
+            }
+            function two()
+            {
+                document.write(window.value);
+                //using global varaibale
+            }
+            one();
+            two();
+        </script>
+    </head>
+</html>
