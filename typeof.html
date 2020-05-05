@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <h1>Typeof operator</h1>
+        <p id="type"></p>
+        <script>
+            var x;
+            var y =
+            {
+                name : "John" ,
+                age  : 23
+            };
+            document.getElementById("type").innerHTML = 
+            typeof " " + "<br>" +   //string
+            typeof "LGSI" + "<br>" +   //string
+            typeof 'LG' + "<br>" +   //string
+            typeof 0 + "<br>" +   //number
+            typeof 314 + "<br>" +   //number
+            typeof 3.14 + "<br>" +   //number
+            typeof (3) + "<br>" +   //number
+            typeof (3+4) + "<br>" +   //number
+            typeof true + "<br>" +   //boolean
+            typeof y + "<br>" +   //object
+            typeof x ; //boolean
+
+
+        </script>
+    </head>
+</html>
